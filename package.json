@@ -1,0 +1,22 @@
+{
+  "name": "express-rest-api",
+  "version": "1.0.0",
+  "description": "Servidor HTTP para API Rest",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julmor/express-rest-api.git"
+  },
+  "author": "Juliana Caroline F de Morais",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julmor/express-rest-api/issues"
+  },
+  "homepage": "https://github.com/julmor/express-rest-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
