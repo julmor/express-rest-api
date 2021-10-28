@@ -6,3 +6,7 @@ const app = express()
 app.listen(port, () =>{
     console.log(`Express started in ${port}`)
 })
+
+app.get('/', (req, res) => {
+    res.send("Hello")    
+})
